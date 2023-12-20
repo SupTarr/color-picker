@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This project is part of [React JS Full Course for Beginners](https://www.youtube.com/watch?v=RVFAyFWO4go) by `Dave Gray`. and I use my React knowledge to show color from textbox.
+This project is part of [React JS Full Course for Beginners](https://www.youtube.com/watch?v=RVFAyFWO4go) by `Dave Gray`. and I display the color from the textbox's input using my React skills.
 
 ## Technologies
 
@@ -26,6 +26,4 @@ npm install
 npm run dev
 ```
 
-Runs the app in the development mode.
-
-Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+The app will be run in the development mode.
