@@ -7,13 +7,13 @@ type PropsType = {
 const ColorBox = ({ color }: PropsType) => {
   return (
     <section
-      className="color-box w-full max-w-xs h-20 flex flex-col flex-wrap content-center justify-center border-2 border-slate-50 rounded-lg mb-5"
+      className="color-box mb-5 flex h-20 w-full max-w-xs flex-col flex-wrap content-center justify-center rounded-lg border-2 border-slate-50"
       style={{ backgroundColor: color }}
     >
-      <p className="mix-blend-normal text-center">
+      <p className="text-center mix-blend-normal">
         {color ? color : "Empty value"}
       </p>
-      <p className="mix-blend-normal text-center">
+      <p className="text-center mix-blend-normal">
         {color ? colorNames(color) : null}
       </p>
     </section>
